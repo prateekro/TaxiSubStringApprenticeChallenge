@@ -10,7 +10,8 @@
 >
 
 The application should start on ` http://127.0.0.1` at port `5001` or goto ` http://127.0.0.1:5001/`
- 
+
+---
 #### Steps to initiate test
 > Route at `/test` 
 > 
@@ -39,7 +40,7 @@ with app.test_client() as lyftCase:
     resp = lyftCase.post('/test', json={
         'string_to_cut': 'iamyourlyftdriver'
     })
-    if resp.data.decode('utf-8') == 'muydv':
+    if resp.data.decode('utf-8') == '{"return_string":"muydv"}\n':
         print('Test Success:', resp.data.decode('utf-8'))
 ``` 
 

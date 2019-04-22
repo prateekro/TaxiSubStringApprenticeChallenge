@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f834e08-0ebb-453b-8514-aa68330245be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testSample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lyftSample.py" beforeDir="false" afterPath="$PROJECT_DIR$/lyftSample.py" afterDir="false" />
     </list>
@@ -18,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="34">
-                <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+              <first_editor relative-caret-position="319">
+                <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lyftSample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="21" column="17" selection-start-line="21" selection-end-line="22" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -64,8 +64,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lyftSample.py" />
         <option value="$PROJECT_DIR$/testSample.py" />
+        <option value="$PROJECT_DIR$/lyftSample.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -110,7 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testSample">
+  <component name="RunManager" selected="Python.lyftSample">
     <configuration name="lyftSample" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LyftApprentice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,8 +155,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.testSample" />
         <item itemvalue="Python.lyftSample" />
+        <item itemvalue="Python.testSample" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +186,13 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://C:/Program Files/Python37/Lib/site-packages/flask/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testSample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -195,8 +202,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lyftSample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="21" column="17" selection-start-line="21" selection-end-line="22" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -206,8 +213,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+          <first_editor relative-caret-position="319">
+            <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
