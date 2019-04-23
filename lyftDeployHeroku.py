@@ -4,6 +4,15 @@ from flask import jsonify
 
 app = Flask(__name__)
 
+@app.route('/')
+def homepage():
+	return """
+	<h1>Hello! </h1>
+	<p> Use <a href="https://github.com/prateekro/LyftApprenticeChallenge">https://github.com/prateekro/LyftApprenticeChallenge</a> to learn more about the API usage</p>
+	<h2>Welcome to the Taxi</h2>
+	<img src="http://loremflickr.com/600/400/yellowtaxi">
+    """
+	
 @app.route('/test', methods = ['POST'])
 def lyft():
     if request.method == 'POST':
@@ -14,6 +23,7 @@ def lyft():
                 if enum%3 == 2:
                     output += character
         return jsonify({"return_string": output})
+    return 'None'
 
 with app.test_client() as lyftCase:
     resp = lyftCase.post('/test', json={
@@ -25,4 +35,4 @@ with app.test_client() as lyftCase:
         print('Test Failed')
 
 if __name__ == '__main__':
-    app.run(host='https://lyft-app.herokuapp.com/', port=8000)
+    app.run(debug=True, use_reloader=True)
