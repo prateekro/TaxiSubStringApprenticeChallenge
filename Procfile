@@ -1,1 +1,1 @@
-web: python lyftSample.py
+web: python lyftDeployHeroku.py
