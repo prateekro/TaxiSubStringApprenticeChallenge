@@ -11,8 +11,12 @@
 
 The application should start on ` http://127.0.0.1` at port `5001` or goto ` http://127.0.0.1:5001/`
 
+
+
 ---
 #### Steps to initiate test
+> LIVE API is directly accessible on `https://lyft-app.herokuapp.com/`
+>
 > Route at `/test` 
 > 
 > Request method `POST` 
