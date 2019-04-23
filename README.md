@@ -64,3 +64,9 @@ res = requests.request(method=method, url=url, data=payload, headers=headers)
 
 print(res.text)
 ```
+
+- cURL
+
+```
+curl --location --request POST "https://lyft-app.herokuapp.com/test"  --header "Content-Type: application/json" --data "{\"string_to_cut\": \"iamyourlyftdriver\"}"
+```
