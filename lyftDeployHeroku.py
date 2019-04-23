@@ -25,4 +25,4 @@ with app.test_client() as lyftCase:
         print('Test Failed')
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='https://lyft-app.herokuapp.com/', port=8000)
