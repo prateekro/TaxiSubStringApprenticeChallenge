@@ -1,1 +1,1 @@
-web: py lyftSample.py
+web: python lyftSample.py
