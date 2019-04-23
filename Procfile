@@ -1,1 +1,1 @@
-web: python lyftDeployHeroku.py
+web: gunicorn lyftDeployHeroku:app
