@@ -1,1 +1,1 @@
-web: gunicorn lyftapprentice.wsgi
+web: py lyftSample.py
