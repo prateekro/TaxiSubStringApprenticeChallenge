@@ -8,7 +8,7 @@ app = Flask(__name__)
 def homepage():
 	return """
 	<h1>Hello! </h1>
-	<p> Use <a href="https://github.com/prateekro/LyftApprenticeChallenge">https://github.com/prateekro/LyftApprenticeChallenge</a> to learn more about the API usage</p>
+	<p> Use <a href="https://github.com/prateekro/LyftApprenticeChallenge">https://github.com/prateekro/TaxiSubStringApprenticeChallenge</a> to learn more about the API usage</p>
 	<h2>Welcome to the Taxi</h2>
 	<img src="http://loremflickr.com/600/400/yellowtaxi">
     """
