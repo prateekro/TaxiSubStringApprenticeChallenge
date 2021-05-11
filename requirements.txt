@@ -44,7 +44,7 @@ PyYAML==5.4
 query-string==2019.4.13
 request==2019.4.13
 requests==2.21.0
-rsa==3.4.2
+rsa==4.7
 s3transfer==0.2.0
 service-identity==18.1.0
 six==1.12.0
